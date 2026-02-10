@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Валентинка ❤️</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Montserrat:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Контейнер для сердечок -->
+<div id="heart-container"></div>
+
+<!-- Вступна велика валентинка -->
+<section id="valentine">
+  <h1>З Днем Закоханих ❤️</h1>
+  <p>Натисни на серце, щоб побачити наші найкращі моменти!</p>
+
+  <div class="heart" id="main-heart">❤️</div>
+
+  <div class="side-photos">
+    <img src="images/photo_left.jpg" alt="Фото зліва">
+    <img src="images/photo_right.jpg" alt="Фото справа">
+  </div>
+</section>
+
+<!-- Основний блок спогадів -->
+<section id="memories">
+  <div class="card">
+    <h2 class="editable" contenteditable="true">Найкращі моменти з тобою ❤️</h2>
+    <p class="editable" contenteditable="true">Кілька наших спогадів, які для мене безцінні.</p>
+
+    <div class="memory">
+      <div class="gallery"><img src="images/photo1.jpg" alt="moment 1"></div>
+      <p class="editable" contenteditable="true">Тут можна написати текст про момент та вставити фото.</p>
+    </div>
+
+    <div class="memory">
+      <div class="gallery"><img src="images/photo2.jpg" alt="moment 2"></div>
+      <p class="editable" contenteditable="true">Ще один особливий спогад.</p>
+    </div>
+
+    <div class="memory">
+      <div class="gallery"><video controls>
+        <source src="videos/video1.mp4" type="video/mp4">
+        Ваш браузер не підтримує відео.
+      </video></div>
+      <p class="editable" contenteditable="true">Цей момент ми записали на відео!</p>
+    </div>
+
+    <div class="memory">
+      <div class="gallery"><img src="images/photo3.jpg" alt="moment 3"></div>
+      <p class="editable" contenteditable="true">Ще один чудовий момент.</p>
+    </div>
+
+    <div class="memory">
+      <div class="gallery"><img src="images/photo4.jpg" alt="moment 4"></div>
+      <p class="editable" contenteditable="true">Незабутній день разом.</p>
+    </div>
+
+    <div class="memory">
+      <div class="gallery"><img src="images/photo5.jpg" alt="moment 5"></div>
+      <p class="editable" contenteditable="true">Ще один милий спогад ❤️</p>
+    </div>
+  </div>
+</section>
+
+<footer>Зроблено з любов’ю • 14 лютого ❤️</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
